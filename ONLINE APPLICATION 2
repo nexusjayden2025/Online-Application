@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Application Form</title>
+  <style>
+    body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+    input, textarea, select { width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+    button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; }
+  </style>
+</head>
+<body>
+  <h2>Online Application Form</h2>
+  <form method="POST" action="https://script.google.com/macros/s/AKfycbxOwlwuvlKaJiY9Jh_DoozikYpKK8iZxFZTMt9beCSCffVR_R4b0hLsIVL6FtohKXdytA/exec">
+    <label>Pangalan:</label>
+    <input type="text" name="pangalan" required>
+
+    <label>Address:</label>
+    <input type="text" name="address" required>
+
+    <label>Contact No:</label>
+    <input type="text" name="contact" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Application Type:</label>
+    <input type="text" name="application_type" required>
+
+    <label>Internet Plan:</label>
+    <input type="text" name="internet_plan" required>
+
+    <label>Preferred Installation Date:</label>
+    <input type="date" name="preferred_date" required>
+
+    <label>Notes:</label>
+    <textarea name="notes"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
